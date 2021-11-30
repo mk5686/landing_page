@@ -122,14 +122,15 @@ button {
   background-color: hsl(0, 0%, 90%);
   height: 430px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .section3 .quote {
   width: 60%;
   font-size: 38px;
-  margin: 50px;
+  /* margin: 50px; */
   padding: 30px;
   font-style: italic;
   font-weight: lighter;
